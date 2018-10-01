@@ -23,9 +23,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles/styles.css",
+              "src/styles/fontawesome-free/css/all.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/startbootstrap-agency/css/agency.min.css",
+              "node_modules/startbootstrap-agency/scss/agency.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/jquery.easing/jquery.easing.min.js",
+              "node_modules/startbootstrap-agency/js/agency.js"
+            ]
           },
           "configurations": {
             "production": {
